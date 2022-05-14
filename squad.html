@@ -1,0 +1,402 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dodger-blue': {
+                            '50': '#ecf2ff',
+                            '100': '#dde8ff',
+                            '200': '#c2d4ff',
+                            '300': '#9cb6ff',
+                            '400': '#758dff',
+                            '500': '#5465ff',
+                            '600': '#363af5',
+                            '700': '#2a2bd8',
+                            '800': '#2528ae',
+                            '900': '#262b89',
+                        },
+                    },
+                    fontFamily: {
+                        'sans': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-montserrat">
+
+
+    <div class="inline-flex">
+        <aside class="w-72 h-screen bg-dodger-blue-600 sticky top-0" aria-label="Sidebar">
+            <div class="overflow-y-auto py-7 px-5 bg-dodger-blue-600 rounded">
+                <div class="overflow-y-auto py-6 px-3">
+                    <a href="home.html"
+                        class="flex items-center pl-2.5 mb-7">
+                        <span class="self-center text-[28px] font-bold whitespace-nowrap dark:text-white">Football
+                            Club</span>
+                    </a>
+                    <ul class="space-y-2 mt-7">
+                        <li>
+                            <a href="home.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <?xml version="1.0" ?><svg baseProfile="tiny" height="24px" id="Layer_1" version="1.2"
+                                    viewBox="0 0 24 24" width="24px" xml:space="preserve"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path
+                                        d="M12,3c0,0-6.186,5.34-9.643,8.232C2.154,11.416,2,11.684,2,12c0,0.553,0.447,1,1,1h2v7c0,0.553,0.447,1,1,1h3  c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.447,1-1v-7h2c0.553,0,1-0.447,1-1c0-0.316-0.154-0.584-0.383-0.768  C18.184,8.34,12,3,12,3z"
+                                        fill="#ffffff" />
+                                </svg>
+                                <span class="ml-3">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="squad.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-bold text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <?xml version="1.0" ?><svg fill="none" height="24" viewBox="0 0 24 24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.754 10C15.7205 10 16.504 10.7835 16.504 11.75V16.499C16.504 18.9848 14.4888 21 12.003 21C9.51712 21 7.50193 18.9848 7.50193 16.499V11.75C7.50193 10.7835 8.28543 10 9.25193 10H14.754ZM7.13128 9.99906C6.78183 10.4218 6.55636 10.9508 6.51057 11.5304L6.50193 11.75V16.499C6.50193 17.3456 6.69319 18.1476 7.03487 18.864C6.70577 18.953 6.35899 19 6.00124 19C3.79142 19 2 17.2086 2 14.9988V11.75C2 10.8318 2.70711 10.0788 3.60647 10.0058L3.75 10L7.13128 9.99906ZM16.8747 9.99906L20.25 10C21.2165 10 22 10.7835 22 11.75V15C22 17.2091 20.2091 19 18 19C17.6436 19 17.298 18.9534 16.9691 18.8659C17.2697 18.238 17.4538 17.5452 17.4951 16.8144L17.504 16.499V11.75C17.504 11.0847 17.2678 10.4747 16.8747 9.99906ZM12 3C13.6569 3 15 4.34315 15 6C15 7.65685 13.6569 9 12 9C10.3431 9 9 7.65685 9 6C9 4.34315 10.3431 3 12 3ZM18.5 4C19.8807 4 21 5.11929 21 6.5C21 7.88071 19.8807 9 18.5 9C17.1193 9 16 7.88071 16 6.5C16 5.11929 17.1193 4 18.5 4ZM5.5 4C6.88071 4 8 5.11929 8 6.5C8 7.88071 6.88071 9 5.5 9C4.11929 9 3 7.88071 3 6.5C3 5.11929 4.11929 4 5.5 4Z"
+                                        fill="#ffffff" />
+                                </svg>
+                                <span class="ml-3">Squad</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="transfer.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg enable-background="new 0 0 128 128" height="24px" id="Layer_1" version="1.1"
+                                    viewBox="0 0 24 24" width="24px" xml:space="preserve"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                        <path
+                                            d="M20.864 14.609l-0.616 -0.616c-0.43 -0.43 -1.126 -0.431 -1.555 -0.002l-0.798 0.797V4.89c0 -0.601 -0.489 -1.088 -1.092 -1.088h-0.864c-0.602 0 -1.091 0.488 -1.091 1.088v9.897l-0.798 -0.797c-0.429 -0.429 -1.125 -0.427 -1.555 0.002l-0.616 0.616c-0.43 0.43 -0.431 1.126 -0.002 1.555l3.714 3.714c0.215 0.215 0.498 0.322 0.781 0.32c0.283 0.001 0.565 -0.105 0.78 -0.32l3.714 -3.714C21.295 15.735 21.294 15.039 20.864 14.609z"
+                                            fill="#ffffff" />
+                                        <path
+                                            d="M3.136 9.391l0.616 0.616c0.43 0.43 1.126 0.431 1.555 0.003l0.798 -0.797v9.897c0 0.601 0.489 1.088 1.091 1.088h0.864c0.603 0 1.091 -0.487 1.091 -1.088V9.213l0.797 0.797c0.429 0.429 1.125 0.427 1.555 -0.003l0.616 -0.616c0.43 -0.43 0.431 -1.126 0.002 -1.555L8.408 4.122c-0.215 -0.215 -0.498 -0.322 -0.78 -0.32c-0.283 -0.001 -0.565 0.105 -0.781 0.32L3.133 7.836C2.705 8.265 2.706 8.961 3.136 9.391z"
+                                            fill="#ffffff" />
+                                    </g>
+                                </svg>
+                                <span class="ml-3">Transfers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="coach.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg enable-background="new 0 0 512 512" id="Layer_1" version="1.1" viewBox="0 0 24 24"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                                    <g>
+                                        <path
+                                            d="M9.262 11.17c0.994 -0.703 1.645 -1.852 1.645 -3.159c0 -2.142 -1.744 -3.881 -3.891 -3.881c-2.152 0 -3.891 1.739 -3.891 3.881c0 1.275 0.628 2.4 1.58 3.108C1.973 11.709 0 13.392 0 15.38c0 2.484 3.075 4.495 6.872 4.495s6.872 -2.011 6.872 -4.495C13.744 13.448 11.878 11.803 9.262 11.17zM5.536 6.52c0.281 0 0.506 0.225 0.506 0.506c0 0.281 -0.23 0.506 -0.506 0.506c-0.281 0 -0.506 -0.225 -0.506 -0.506C5.03 6.75 5.259 6.52 5.536 6.52zM7.134 19.195l-1.547 -1.791l1.242 -4.65c-0.145 -0.098 -0.248 -0.258 -0.248 -0.445c0 -0.3 0.244 -0.544 0.548 -0.544c0.3 0 0.548 0.244 0.548 0.544c0 0.188 -0.103 0.347 -0.248 0.445l1.125 4.922L7.134 19.195zM8.822 9.117c-0.408 0.553 -1.059 0.919 -1.8 0.919c-0.802 0 -1.505 -0.427 -1.898 -1.064c-0.112 -0.333 0.117 -0.478 0.352 -0.234c0.323 0.53 0.881 0.9 1.547 0.9c0.605 0 1.116 -0.309 1.453 -0.759C8.709 8.677 8.986 8.911 8.822 9.117zM8.433 7.538c-0.281 0 -0.506 -0.225 -0.506 -0.506c0 -0.281 0.23 -0.506 0.506 -0.506c0.281 0 0.506 0.225 0.506 0.506C8.944 7.308 8.714 7.538 8.433 7.538z"
+                                            fill="#ffffff" />
+                                        <g>
+                                            <path
+                                                d="M23.208 8.531H12.834c-0.436 0 -0.792 -0.356 -0.792 -0.792v0c0 -0.436 0.356 -0.792 0.792 -0.792h10.373c0.436 0 0.792 0.356 0.792 0.792v0C24 8.175 23.644 8.531 23.208 8.531z"
+                                                fill="#ffff" />
+                                            <path
+                                                d="M23.208 11.489H12.834c-0.436 0 -0.792 -0.356 -0.792 -0.792v0c0 -0.436 0.356 -0.792 0.792 -0.792h10.373c0.436 0 0.792 0.356 0.792 0.792v0C24 11.133 23.644 11.489 23.208 11.489z"
+                                                fill="#ffff" />
+                                            <path
+                                                d="M23.208 14.227H15.469c-0.436 0 -0.792 -0.356 -0.792 -0.792v0c0 -0.436 0.356 -0.792 0.792 -0.792h7.744c0.436 0 0.792 0.356 0.792 0.792v0C24 13.87 23.644 14.227 23.208 14.227z"
+                                                fill="#ffff" />
+                                            <path
+                                                d="M23.208 17.058H15.469c-0.436 0 -0.792 -0.356 -0.792 -0.792v0c0 -0.436 0.356 -0.792 0.792 -0.792h7.744c0.436 0 0.792 0.356 0.792 0.792v0C24 16.702 23.644 17.058 23.208 17.058z"
+                                                fill="#ffffff" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="ml-3">Coach</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="team_mangement.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg width="24pt" height="24pt" version="1.1" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                        <path
+                                            d="m14.647 5.251h-5.251v-5.251h5.251zm-3.707 -1.544h2.162v-2.162h-2.162zm-3.824 15.493h-5.251v-5.251h5.251zm-3.707 -1.544h2.162v-2.162h-2.162zm18.743 1.544h-5.251v-5.251h5.251zm-3.707 -1.544h2.162v-2.162h-2.162zm-3.812 1.544h-5.251v-5.251h5.251zm-3.707 -1.544h2.162v-2.162h-2.162z"
+                                            fill="#ffff" />
+                                        <path fill="#ffff" d="m11.07 14.264 0.037 -10.02 1.853 0.006 -0.037 10.02z" />
+                                        <path fill="#ffff"
+                                            d="m20.454 14.27h-1.853v-3.552l-13.183 0v3.552h-1.853v-5.405h16.889v5.405z" />
+                                    </g>
+                                </svg>
+                                <span class="ml-3">Team Management</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="train_acad.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg enable-background="new 0 0 48 48" height="24px" version="1.1" viewBox="0 0 24 24"
+                                    width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Layer_4">
+                                        <g>
+                                            <path
+                                                d="M12 0.029C5.388 0.029 0.029 5.388 0.029 12c0 6.611 5.359 11.971 11.971 11.971c6.611 0 11.971 -5.361 11.971 -11.971C23.971 5.388 18.611 0.029 12 0.029zM9.055 21.27l0.969 -1.049l-2.14 -2.67l-3.2 -1.031L4.112 17.675c-1.139 -1.581 -1.819 -3.51 -1.835 -5.604l1.162 0.663l2.118 -2.687l0.283 -3.349l-1.705 -0.403c1.184 -1.629 2.856 -2.876 4.806 -3.522l-0.19 1.367l3.281 0.969l3.216 -0.981l-0.203 -1.359c1.959 0.646 3.637 1.899 4.824 3.534l-1.637 0.342l0.192 3.416l2.006 2.698l1.292 -0.69c-0.013 2.049 -0.664 3.944 -1.759 5.505l-0.579 -1.124l-3.241 1.097l-2.063 2.655l0.98 1.028c-0.963 0.321 -1.99 0.499 -3.061 0.499C10.973 21.727 9.983 21.566 9.055 21.27z"
+                                                fill="#ffff" />
+                                            <path fill="#ffff"
+                                                points="31.499,21.929 24,16.483 16.548,21.929 19.319,30.384 28.633,30.384   "
+                                                d="M15.749 10.964L12 8.242L8.274 10.964L9.659 15.192L14.316 15.192Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="ml-3">Training Academy</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fan_meetup.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg enable-background="new 0 0 100 100" height="24px" id="Layer_1" version="1.1"
+                                    viewBox="0 0 24 24" width="24px" xml:space="preserve"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                        <defs>
+                                            <path height="100" id="SVGID_1_" width="100" d="M0 0H24V24H0V0z" />
+                                        </defs>
+                                        <path fill="#ffff"
+                                            d="M11.068 12.318c-0.072 0 -0.145 -0.006 -0.199 -0.081c0.016 -0.286 0.11 -0.5 0.2 -0.706c0.041 -0.093 0.081 -0.185 0.115 -0.285l0.04 -0.117l0.034 0.119c0.078 0.276 0.053 0.791 -0.068 1.068L11.068 12.318zM20.091 10.513l-0.036 0.034c-0.617 0.582 -0.841 1.57 -1.002 2.449c0.515 -0.139 0.953 -0.615 1.141 -1.138c0.115 -0.319 0.195 -0.805 -0.079 -1.301L20.091 10.513zM8.82 12.098c0.032 0.013 0.069 0.028 0.12 0.028l0.026 -0.005l0.063 -0.031c0.048 -0.237 0.033 -0.543 -0.041 -0.841c-0.19 0.216 -0.306 0.467 -0.349 0.789l-0.006 0.044l0.097 -0.005C8.765 12.076 8.79 12.085 8.82 12.098M22.8 17.708c0 0.426 -0.345 0.772 -0.771 0.772H1.971C1.545 18.48 1.2 18.135 1.2 17.708v-11.417C1.2 5.865 1.545 5.52 1.971 5.52h20.057c0.426 0 0.771 0.345 0.771 0.772V17.708zM7.687 13.513c-0.214 -0.59 -0.353 -1.259 -0.486 -1.914c-0.172 -0.841 -0.35 -1.695 -0.652 -2.362c-0.036 0.003 -0.071 0.036 -0.105 0.036c-0.107 0 -0.2 0.025 -0.292 0.01C6.064 9.269 5.975 9.36 5.871 9.36h-0.03c-0.027 0 -0.052 -0.106 -0.063 -0.114c-0.481 0.651 -0.647 1.529 -0.864 2.42c-0.12 -0.211 -0.23 -0.427 -0.34 -0.649c-0.193 -0.389 -0.392 -0.789 -0.618 -1.11c-0.063 -0.005 -0.125 -0.006 -0.184 -0.006c-0.259 0 -0.494 0.047 -0.714 0.111l-0.012 0.598c-0.024 1.026 -0.045 1.913 0.214 2.75c0.048 0.008 0.097 0.012 0.145 0.012c0.31 0 0.584 -0.151 0.704 -0.212c0.019 -0.263 -0.014 -0.467 -0.048 -0.685c-0.018 -0.112 -0.036 -0.224 0.023 -0.37c0.18 0.234 0.338 0.489 0.495 0.745c0.1 0.162 0.201 0.323 0.278 0.462c0.052 0.005 0.101 0.007 0.147 0.007c0.121 0 0.228 -0.015 0.335 -0.03c0.111 -0.015 0.221 -0.029 0.347 -0.029l0.072 0.026c0.142 -0.316 0.15 -0.782 0.157 -1.232c0.007 -0.413 0.014 -0.84 0.198 -1.158c0.2 0.924 0.473 1.821 0.833 2.741c0.127 -0.017 0.267 -0.061 0.396 -0.101c0.096 -0.03 0.184 -0.058 0.253 -0.058C7.631 13.48 7.662 13.495 7.687 13.513M10.171 13.706c-0.069 -0.125 -0.168 -0.183 -0.311 -0.183c-0.108 0 -0.232 0.03 -0.351 0.063c-0.122 0.033 -0.247 0.064 -0.36 0.064c-0.031 0 -0.06 -0.007 -0.089 -0.014c-0.136 -0.026 -0.245 -0.111 -0.325 -0.229c-0.144 -0.214 -0.179 -0.565 -0.05 -0.993C8.894 12.472 9.156 12.48 9.442 12.48h0.071c0.073 0 0.14 0.024 0.184 0.041c0.141 -0.572 0.065 -1.353 -0.048 -1.801c-0.088 -0.018 -0.165 -0.05 -0.243 -0.077c-0.136 -0.047 -0.263 -0.092 -0.437 -0.092c-0.03 0 -0.061 -0.001 -0.092 0.002c-0.551 0.074 -0.926 0.847 -1.012 1.574c-0.079 0.67 0.065 1.475 0.707 1.723c0.132 0.051 0.296 0.076 0.487 0.076C9.441 13.926 9.883 13.819 10.171 13.706M12.359 13.543c-0.035 -0.115 -0.134 -0.179 -0.283 -0.225c-0.126 0.195 -0.322 0.303 -0.553 0.303c-0.246 0 -0.49 -0.125 -0.637 -0.327c-0.14 -0.193 -0.174 -0.433 -0.051 -0.702c0.199 0.04 0.393 0.077 0.574 0.077c0.15 0 0.286 -0.024 0.4 -0.037c-0.035 -0.44 0.016 -0.749 0.07 -1.076c0.045 -0.273 0.092 -0.555 0.102 -0.896c-0.251 -0.19 -0.518 -0.287 -0.816 -0.313c-0.735 0.562 -1.076 1.423 -1.044 2.627c0.101 0.532 0.802 0.861 1.394 0.861C11.877 13.836 12.18 13.718 12.359 13.543M14.906 11.893c-0.091 -0.073 -0.169 -0.159 -0.246 -0.246c-0.146 -0.164 -0.285 -0.319 -0.51 -0.38c-0.047 0.001 -0.056 0.035 -0.061 0.139c-0.005 0.084 -0.012 0.212 -0.139 0.212l-0.088 0.001l0.004 -0.03c0.031 -0.373 0.004 -0.803 -0.026 -1.279c-0.041 -0.675 -0.085 -1.307 0.035 -1.878C13.726 8.254 13.499 8.16 13.061 8.16h-0.016c-0.036 0 -0.069 -0.113 -0.079 -0.132c-0.226 0.695 -0.116 1.456 -0.01 2.288c0.061 0.475 0.119 0.918 0.048 1.347c-0.087 0 -0.175 -0.011 -0.26 -0.018c-0.076 -0.006 -0.15 -0.014 -0.217 -0.014c-0.126 0 -0.201 0.022 -0.246 0.073c-0.051 0.057 -0.066 0.156 -0.063 0.274c0.173 0.119 0.473 0.127 0.763 0.135l0.183 0.042c0.008 0.254 0.028 0.495 0.047 0.738c0.03 0.355 0.059 0.722 0.051 1.122c0.077 -0.011 0.146 -0.015 0.213 -0.019c0.13 -0.008 0.253 -0.016 0.392 -0.032c-0.005 -0.283 -0.015 -0.553 -0.025 -0.813c-0.014 -0.363 -0.027 -0.708 0.005 -1.08c0.128 -0.037 0.284 -0.045 0.434 -0.053C14.531 12.003 14.792 11.989 14.906 11.893M17.584 11.442C17.404 11.295 17.18 11.04 16.925 11.04h-0.058c-0.028 0 -0.051 0.07 -0.063 0.057l-0.006 0.266c-0.017 0.73 -0.042 1.741 -0.739 1.984c-0.066 -0.438 -0.084 -0.917 -0.101 -1.345c-0.009 -0.228 -0.018 -0.435 -0.01 -0.58c-0.068 -0.033 -0.131 -0.068 -0.192 -0.105c-0.174 -0.104 -0.337 -0.201 -0.6 -0.236c-0.105 1.255 0.021 2.086 0.374 2.47c0.145 0.158 0.333 0.239 0.557 0.239c0.157 0 0.336 -0.039 0.513 -0.102l0.067 -0.104c0.126 -0.193 0.209 -0.321 0.397 -0.464c0.048 -0.086 0.099 -0.192 0.151 -0.275C17.446 12.476 17.664 12.08 17.584 11.442M20.955 10.261c-0.385 -0.225 -0.72 -0.334 -1.025 -0.334c-0.38 0 -0.71 0.171 -1.008 0.523c-0.561 0.662 -0.678 2.042 -0.759 2.736c-0.034 0.015 -0.071 0.026 -0.108 0.036c-0.097 0.029 -0.189 0.056 -0.224 0.102c0.295 0.342 0.353 0.921 0.409 1.481c0.044 0.432 0.088 0.878 0.215 1.182c0.07 0.015 0.169 0.023 0.301 0.023c0.062 0 0.127 -0.002 0.192 -0.002c0.11 0 0.218 0.005 0.303 0.031c-0.204 -0.515 -0.284 -1.213 -0.221 -2.233c0.833 -0.197 1.572 -0.787 1.93 -1.541C21.177 11.81 21.349 11.09 20.955 10.261" />
+                                    </g>
+                                </svg>
+                                <span class="ml-3">Fan Meetup</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sponsor.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg id="Layer_1" style="enable-background:new 0 0 64 64;" version="1.1"
+                                    viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                                    <path fill="#ffff"
+                                        d="M18.054 11.573c-0.109 -0.154 -0.218 -0.304 -0.322 -0.454c0.491 -0.184 0.844 -0.656 0.844 -1.208c0 -0.225 -0.064 -0.431 -0.161 -0.615c0.51 -0.173 0.881 -0.652 0.881 -1.219c0 -0.281 -0.09 -0.536 -0.24 -0.746c0.36 -0.233 0.604 -0.634 0.604 -1.091c0 -0.457 -0.244 -0.859 -0.604 -1.087c0.15 -0.214 0.24 -0.469 0.24 -0.746c0 -0.712 -0.577 -1.294 -1.29 -1.294h-0.9L17.664 0.469c0.019 -0.116 -0.015 -0.236 -0.09 -0.326L17.439 0H12.351c-0.116 0 -0.229 0.053 -0.308 0.143l-0.124 0.165l0.127 0.604h-0.566c-0.266 0 -0.514 0.12 -0.679 0.326l-2.434 3.034c-0.022 0.03 -0.056 0.045 -0.094 0.045h-1.455V3.656H2.094v7.496h4.725v-0.765h1.492L10.239 11.205h1.59c-0.165 0.24 -0.334 0.487 -0.514 0.743c-1.688 2.43 -3.6 5.182 -3.6 7.17c0 0.259 0.011 0.487 0.034 0.701C8.001 22.204 10.044 24 12.501 24h4.631c2.325 0 4.294 -1.582 4.68 -3.765c0.06 -0.367 0.094 -0.742 0.094 -1.117C21.906 17.025 19.768 14.003 18.054 11.573zM4.614 9.48c-0.424 0 -0.765 -0.345 -0.765 -0.769c0 -0.42 0.341 -0.765 0.765 -0.765s0.765 0.345 0.765 0.765C5.379 9.135 5.038 9.48 4.614 9.48zM14.811 16.852c0.983 0 1.785 0.803 1.785 1.789c0 0.855 -0.608 1.571 -1.41 1.744v0.705h-0.75v-0.705c-0.806 -0.173 -1.414 -0.889 -1.414 -1.744h0.75c0 0.57 0.465 1.035 1.039 1.035c0.57 0 1.035 -0.465 1.035 -1.035c0 -0.574 -0.465 -1.039 -1.035 -1.039c-0.986 0 -1.789 -0.802 -1.789 -1.785c0 -0.859 0.608 -1.575 1.414 -1.747v-0.705h0.75v0.705c0.802 0.173 1.41 0.889 1.41 1.747h-0.75c0 -0.574 -0.465 -1.039 -1.035 -1.039c-0.574 0 -1.039 0.465 -1.039 1.039C13.772 16.388 14.237 16.852 14.811 16.852zM17.282 10.455h-6.889l-1.931 -0.817h-1.642v-4.571h1.455c0.266 0 0.514 -0.12 0.679 -0.326l2.434 -3.034c0.022 -0.026 0.056 -0.045 0.094 -0.045h0.724l0.308 1.451H11.754v0.75h6.251c0.3 0 0.54 0.244 0.54 0.544c0 0.296 -0.24 0.54 -0.54 0.54h-1.808v0.75h2.168c0.3 0 0.544 0.244 0.544 0.544s-0.244 0.544 -0.544 0.544h-2.168v0.75h1.808c0.3 0 0.54 0.244 0.54 0.544c0 0.296 -0.24 0.54 -0.54 0.54h-1.808v0.75h1.099c0.293 0.011 0.529 0.247 0.529 0.544C17.826 10.211 17.582 10.455 17.282 10.455z" />
+                                </svg>
+                                <span class="ml-3">Sponsors</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ticket.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg enable-background="new 0 0 64 64" height="24px" id="Layer_1" version="1.1"
+                                    viewBox="0 0 24 24" width="24px" xml:space="preserve"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path
+                                        d="M23.618 7.706l-1.334 -1.339c-0.537 -0.539 -1.364 -0.099 -1.364 -0.099l-0.002 -0.002c-0.862 0.359 -1.891 0.19 -2.591 -0.513c-0.7 -0.704 -0.865 -1.736 -0.501 -2.596c0.003 -0.008 0.003 -0.013 0.007 -0.022c0.311 -0.824 -0.131 -1.364 -0.262 -1.5l-1.34 -1.345c-0.585 -0.588 -1.221 -0.053 -1.377 0.096L0.388 14.794c-0.804 0.8 -0.141 1.438 -0.141 1.438l1.552 1.558c0 0 0.383 0.414 1.126 0.114c0.024 -0.009 0.042 -0.013 0.062 -0.02c0.883 -0.426 1.973 -0.279 2.704 0.455c0.696 0.699 0.865 1.723 0.51 2.581h0.001c0 0 -0.452 0.838 0.091 1.383l1.359 1.365c0.097 0.095 0.811 0.737 1.703 -0.15l14.373 -14.315C23.946 8.95 24.284 8.375 23.618 7.706zM8.796 16.95l-0.123 0.122c-0.138 0.138 -0.28 0.05 -0.352 -0.015l-1.593 -1.6l-0.401 0.4c-0.203 0.203 -0.377 -0.006 -0.377 -0.006l-0.053 -0.054c0 0 -0.144 -0.13 0.075 -0.348l1.22 -1.215c0 0 0.192 -0.212 0.375 -0.029l0.042 0.042c0.137 0.146 0.051 0.277 -0.007 0.341l-0.414 0.413l1.532 1.539C8.909 16.729 8.855 16.872 8.796 16.95zM10.152 15.598l-0.1 0.099c-0.155 0.155 -0.358 -0.024 -0.408 -0.071l-1.683 -1.69c0 0 -0.232 -0.239 -0.042 -0.428l0.071 -0.071c0 0 0.202 -0.188 0.479 0.091l1.652 1.658C10.305 15.372 10.213 15.528 10.152 15.598zM12.205 13.452c-0.102 0.201 -0.232 0.391 -0.411 0.57c-0.315 0.314 -0.651 0.458 -1.008 0.433c-0.357 -0.024 -0.714 -0.215 -1.07 -0.573c-0.224 -0.225 -0.38 -0.462 -0.466 -0.714c-0.087 -0.251 -0.098 -0.497 -0.035 -0.741s0.198 -0.467 0.405 -0.673c0.165 -0.164 0.372 -0.289 0.601 -0.392c0.076 -0.012 0.216 -0.013 0.283 0.142l0.026 0.061c0.114 0.266 -0.205 0.355 -0.205 0.355l0 0.001c-0.013 0.006 -0.028 0.012 -0.041 0.018c-0.11 0.052 -0.205 0.118 -0.284 0.198c-0.173 0.171 -0.242 0.37 -0.207 0.594c0.035 0.224 0.167 0.452 0.398 0.684c0.481 0.482 0.903 0.544 1.265 0.183c0.105 -0.104 0.207 -0.257 0.307 -0.43c0.001 0 0.007 0.002 0.007 0.002s0.132 -0.228 0.256 -0.104l0.077 0.078C12.234 13.264 12.226 13.38 12.205 13.452zM14.395 11.372l-0.219 0.219c-0.137 0.136 -0.351 0.085 -0.351 0.085l-1.261 -0.297l-0.055 0.332l0.52 0.523c0.187 0.187 0.145 0.332 0.086 0.414l-0.114 0.112c-0.16 0.16 -0.34 0.02 -0.408 -0.045l-1.694 -1.701c0 0 -0.238 -0.237 -0.066 -0.408l0.106 -0.105c0.066 -0.055 0.224 -0.14 0.432 0.068l0.738 0.741L12.036 10.875l-0.128 -1.147c0 0 -0.02 -0.171 0.11 -0.301l0.172 -0.171c0 0 0.208 -0.21 0.243 0.092c0 0 0.001 0 0.001 0.001l0.164 1.41l1.699 0.389C14.388 11.172 14.532 11.235 14.395 11.372zM15.948 9.874l-0.83 0.827c-0.216 0.215 -0.417 0.051 -0.475 -0.004l-1.675 -1.681c0 0 -0.208 -0.279 0.011 -0.498l0.812 -0.808c0 0 0.171 -0.191 0.312 -0.049l0.065 0.065c0 0 0.199 0.16 -0.003 0.361l-0.442 0.44c-0.169 0.169 -0.001 0.328 -0.001 0.328l0.131 0.13c0 0 0.177 0.185 0.378 -0.016l0.355 -0.354c0 0 0.177 -0.182 0.312 -0.046l0.053 0.053c0.149 0.162 0.082 0.288 0.032 0.347l-0.342 0.341c-0.214 0.213 -0.093 0.371 -0.055 0.411l0.234 0.235c0.071 0.055 0.186 0.104 0.308 -0.019l0.436 -0.435c0 0 0.179 -0.194 0.297 -0.076l0.074 0.074C16.092 9.662 16.008 9.806 15.948 9.874zM17.139 8.64l-0.072 0.071c-0.143 0.142 -0.319 -0.006 -0.376 -0.062l-1.359 -1.365c-0.176 -0.177 -0.328 -0.068 -0.381 -0.018l-0.246 0.246c-0.172 0.171 -0.332 -0.015 -0.332 -0.015l-0.065 -0.066c0 0 -0.143 -0.143 0.028 -0.314l1.263 -1.258c0.076 -0.069 0.229 -0.171 0.361 -0.039l0.041 0.042c0.146 0.154 0.062 0.289 0.009 0.349l-0.254 0.253c-0.034 0.036 -0.146 0.181 0.058 0.387l1.337 1.342C17.224 8.277 17.33 8.453 17.139 8.64z"
+                                        fill="#ffff" />
+                                </svg>
+                                <span class="ml-3">Ticket</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lineup.html"
+                                class="transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 flex items-center p-4 text-base font-normal text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path fill="#ffff"
+                                        d="M12 2C6.475 2 2 6.475 2 12c0 5.52 4.475 10 10 10s10 -4.48 10 -10c0 -5.525 -4.475 -10 -10 -10zm-4 15.5c-1.38 0 -2.5 -1.12 -2.5 -2.5s1.12 -2.5 2.5 -2.5 2.5 1.12 2.5 2.5 -1.12 2.5 -2.5 2.5zm1.5 -9.5c0 -1.38 1.12 -2.5 2.5 -2.5s2.5 1.12 2.5 2.5 -1.12 2.5 -2.5 2.5 -2.5 -1.12 -2.5 -2.5zm6.5 9.5c-1.38 0 -2.5 -1.12 -2.5 -2.5s1.12 -2.5 2.5 -2.5 2.5 1.12 2.5 2.5 -1.12 2.5 -2.5 2.5z" />
+                                </svg>
+                                <span class="ml-3">LineUp</span>
+                            </a>
+                            <a href="login.html"
+                                class="flex items-center p-4 text-base font-normal mt-14 text-white rounded-lg hover:bg-dodger-blue-500 hover:text-white">
+                                <svg id="Layer_1" style="enable-background:new 0 0 30 30" version="1.1"
+                                    viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                                    <path x1="21" x2="29" y1="15" y2="15" d="M16.8 12L23.2 12" fill="#ffff" />
+                                    <path points="  25,11 29,15 25,19" d="M20 8.8L23.2 12L20 15.2" fill="#ffff" />
+                                    <path
+                                        d="M10.4 11.2h6.4V4c0 -0.882 -0.718 -1.6 -1.6 -1.6H4C3.118 2.4 2.4 3.118 2.4 4v16c0 0.882 0.718 1.6 1.6 1.6h11.2c0.882 0 1.6 -0.718 1.6 -1.6v-7.2h-6.4c-0.442 0 -0.8 -0.358 -0.8 -0.8C9.6 11.558 9.958 11.2 10.4 11.2z"
+                                        fill="#ffff" />
+                                </svg>
+                                <span class="ml-3">Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </aside>
+        <div class="grid grid-col self-start justify-items-start px-16 space-y-10 py-12">
+            <h1 class="text-[1.75rem] font-bold text-center text-dodger-blue-600">Squad</h1>
+            <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                <div class="flex justify-items-stretch flex-col">
+                    <table class="w-[82rem] text-2xl sm:text-md md:text-md text-left text-white">
+                        <thead class="text-xs text-white uppercase bg-dodger-blue-600">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 font-bold text-xl">
+                                    <h3>Name</h3>
+                                </th>
+                                <th scope="col" class="px-6 py-3 font-bold text-xl text-right">
+                                    <h3>Position</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-[20px]">
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Ronaldo
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Messi
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Neymar
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Rooney
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Yousaf
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Kevin
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Ramos
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Silva
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Pepe
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Pique
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Maguire
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Bawa
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Varane
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+                            <tr class="bg-dodger-blue-600 border-b">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                    Saurez
+                                </th>
+                                <td class="px-6 py-3 text-right">
+                                    RW
+                                </td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+</body>
+
+</html>

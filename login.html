@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/login.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dodger-blue': {
+                            '50': '#ecf2ff',
+                            '100': '#dde8ff',
+                            '200': '#c2d4ff',
+                            '300': '#9cb6ff',
+                            '400': '#758dff',
+                            '500': '#5465ff',
+                            '600': '#363af5',
+                            '700': '#2a2bd8',
+                            '800': '#2528ae',
+                            '900': '#262b89',
+                        },
+                    },
+                    fontFamily: {
+                        'sans': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-montserrat">
+    <!--- Logo -->
+    <div class="grid justify-items-center items-center h-screen w-screen">
+        <div class="flex items-center justify-center">
+            <img src="img/logo.png" alt="Avatar" class="w-full h-auto mt-24">
+        </div>
+        <form class="mb-24" method="post">
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-md font-bold font-montserrat text-black">Username</label>
+                <input type="text" id="username"
+                    class="bg-white border focus:text-[20px] border-dodger-blue-600 text-black text-[20px] rounded-lg text-left focus:border-dodger-blue-500 block w-96 p-6"
+                    placeholder="John123" required="">
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block mb-2 text-md font-bold font-montserrat text-black">Password</label>
+                <input type="password" id="password" placeholder="••••••••"
+                    class="bg-white border border-dodger-blue-600 text-black text-[20px] rounded-lg text-left focus:text-black focus:border-dodger-blue-500 focus:text-[20px] focus:font-normal focus:font-montserrat block w-96 p-6"
+                    required="">
+            </div>
+            <button type="button" onmousedown="login()"
+                class="text-white transition ease-in delay-25 hover: transition hover:ease-in hover:delay-25 bg-dodger-blue-600 hover:bg-dodger-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold font-montserrat rounded-lg text-[20px] w-full w-96 p-6 text-center">Login</button>
+        </form>
+        <div class="flex items-center justify-center">
+            <p id="login-error" class="text-red-600 text-center text-lg mb-14 font-bold font-montserrat" style="display:none">Invalid username or password</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+
+</body>
+
+</html>
